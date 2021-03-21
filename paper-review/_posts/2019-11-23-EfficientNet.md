@@ -1,10 +1,20 @@
 ---
 layout: post
 title: EfficientNet
-date: 2020-04-17 20:00
+date: 2019-11-23
 comments: true
 categories: [paper-review]
 tags: [deeplearning]
+---
+
+> In this paper, we systematically study model scaling and identify that carefully **balancing network** depth, width, and resolution can lead to better performance. Based on this observation, we propose **a new scaling method that uniformly scales all dimensions of depth/width/resolution** using a simple yet highly effective **compound coefficient**. 
+
+![Model Scaling](https://drive.google.com/uc?id=1tgBVYooCbdxLcHi6eByFyXQfEGMVPKY7){: width="100%" height="100%"}
+
+- Table of Contents
+{:toc .large-only}
+
+## Paper Info
 ---
 > Title : EfficientNet, Rethinking Model Scaling for Convolutional Neural Network
 
@@ -15,10 +25,6 @@ tags: [deeplearning]
 > keywords : Model Scaling, Classification
 
 ---
-
-> In this paper, we systematically study model scaling and identify that carefully **balancing network** depth, width, and resolution can lead to better performance. Based on this observation, we propose **a new scaling method that uniformly scales all dimensions of depth/width/resolution** using a simple yet highly effective **compound coefficient**. 
-
-![Model Scaling](https://drive.google.com/uc?id=1tgBVYooCbdxLcHi6eByFyXQfEGMVPKY7){: width="100%" height="100%"}
 
 <br>
 ## Introduction
@@ -41,7 +47,6 @@ tags: [deeplearning]
 
 <br>
 ## Compound Model Scaling
----
 ### Problem Formulation
 - ConvNet Layer $$i$$의 함수는 $$\mathrm{Y}_i = \mathcal{F}_i(\mathrm{X}_i)$$로 정의된다. ($$\mathrm{Y}_i$$ : output tensor, $$\mathcal{F}_i$$ : operator, $$\mathrm{X}_i$$ : input tensor)
 - ConvNet $$\mathcal{N}$$은 layer들 간의 결합으로 표현할 수 있다. ($$\mathcal{N}=\mathcal{F_k}\odot\ldots\odot\mathcal{F_2}\odot\mathcal{F_1}(\mathrm{X_1})=\bigodot_{j=1 \ldots k}\mathcal{F_j}(\mathrm{X_1})$$)
@@ -99,7 +104,6 @@ tags: [deeplearning]
     1. - **STEP1** : $$\phi=1$$로 고정후, 메모리 자원이 2배라고 가정할 때 최적의 $$\alpha, \beta, \gamma$$ 값을 수식 2, 3을 기반으로 grid search로 찾는다.
     2. - **STEP2** : $$\alpha, \beta, \gamma$$을 고정하고, $$\phi=1$$을 변화시켜 scale up한다. 
 
----
 ### MBConv
 <p align="center">
     <img src="https://drive.google.com/uc?id=1Z6GL7hoBsWzT8EiAAK2LZA-rPWGr4lcu" width="100%" height="100%">

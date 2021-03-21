@@ -2,102 +2,121 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
-  picture: "https://placehold.it/240x240"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  name: "Beomhyuk Koo"
+  label: "Computer Vision Programmer"
+  picture: "/assets/img/profile(256x256).jpg"
+  email: "llamakoo9@gmail.com"
+  # phone: "(+82) 010-9301-3546"
+  # website: "https://piedpiper.com"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    As a software engineer with a passion for various engineering technologies and sciences,
+    I am very committed to contributing my capabilities to social development.
+    Not only engineering, but also science, economy, society, and so on,
+    I enjoy solving various problems with software engineering,
+    and the joy of solving problems without frustration is the driving force of my life.
+    I studied electronic engineering in my bachelor's degree, developed engineering skills.
+    And during the master's course, I have carried out various projects such as video processing,
+    computer vision, deep learning, machine learning, etc.
+
+
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
+    address: "Gurodong-ro 47-gil"
+    postalCode: "08279"
+    city: "Seoul"
+    countryCode: "KR"
+    region: "Guro-gu"
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "Byumhyuk Koo"
+      url: "https://www.linkedin.com/in/%EB%B2%94%ED%98%81-%EA%B5%AC-980875137/"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+  - company: "NHN Entertainment"
+    position: "Junior AI researcher"
+    website: "https://www.nhn.com/ko/index.nhn"
+    startDate: "2020-02-10"
     endDate: ""
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      NHN is a global IT company that has entered and is growing in various IT-based businesses
+      such as games, payments, entertainment, IT, and advertising.
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
-volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+      - "Research an algorithm for virtual clothing fitting"
+      - "Develop an system an Vehicle depature delay system"
+      - "Research an algorithm for object detection in mobile"
+      - "Develop an algorithm for car plate detection"
+
+  - company: "LG Innotek"
+    position: "Internship"
+    website: "http://www.lginnotek.com/"
+    startDate: "2018-07-01"
+    endDate: "2018-07-31"
+    summary: >
+      LG Innotek, Korea's first electronic components company founded in 1970,
+      has grown into a leading global materials and components company by diversifying business areas
+      and focusing on creating world-class products through constant technological development and process innovation.
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "Develop an Super resolution algorithm for car plate detection"
+
+  - company: "Republic of Korea Air Force"
+    position: "Sergeant"
+    startDate: "2012-09-21"
+    endDate: "2014-09-23"
+    highlights:
+      - "For 2 years, served as CQ(Charge of Quarters) in Air Defense Battalion"
+
+
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
+  - institution: "Sogang University"
+    area: "Electronic Engineering"
     studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
+    startDate: "2011-02-01"
+    endDate: "2018-02-01"
     courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
+      - "Digital circuit design, Digital signal processing, Digital image processing, Communication system"
+
+  - institution: "Sogang University"
+    area: "Electronic Engineering"
+    studyType: "Master"
+    startDate: "2018-02-01"
+    endDate: "2020-02-01"
+    courses:
+      - "Pattern recognition, Deep learning, Computer vision, 3D image processing, Optimization"
+
 publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+  - name: "Nighttime Haze Removal with Glow Decomposition Using GAN"
+    publisher: "Springer"
+    releaseDate: "2020-02-23"
+    website: "https://link.springer.com/chapter/10.1007/978-3-030-41404-7_57"
+    summary: "Investigate the problem of a single image haze removal in the nighttime"
 skills:
-  - name: "Web Development"
+  - name: "Computer vision algorithm"
     level: "Master"
+    keywords:
+      - "Object Detection"
+      - "Neural Rendering"
+  - name: "AI development"
+    level: "Master"
+    keywords:
+      - "Pytorch"
+      - "Tensorflow"
+      - "NVIDIA Jetsons"
+  - name: "Backend programming"
+    level: "Junior"
+    keywords:
+      - "Docker"
+      - "GRPC"
+  - name: "Web development"
+    level: "Junior"
     keywords:
       - "HTML"
       - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
-    keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - "Jekyll"
 languages:
   - language: "English"
     fluency: "Native speaker"
+  - language: "Korean"
+    fluency: "Native speaker"
 interests:
-  - name: "Wildlife"
+  - name: "Sports"
     keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+      - "Baseball"
+      - "Soccer"

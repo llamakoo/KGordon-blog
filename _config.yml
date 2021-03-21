@@ -176,7 +176,7 @@ kramdown:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <username>
+disqus:                bluellama_programmer
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -189,7 +189,8 @@ kramdown:
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, newsletter, related, random, comments]
+  # post_addons:         [about, newsletter, related, random, comments]
+  post_addons:         [about, newsletter, comments]
 
   # Configure the order of complementary content on project pages
   project_addons:      [about, newsletter, other, comments]
@@ -363,11 +364,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name:                <firstname> <lastname>
+  links:
+    # - https://twitter.com/<username>
+    - https://github.com/llamakoo
 
 
 # Plugin Configs

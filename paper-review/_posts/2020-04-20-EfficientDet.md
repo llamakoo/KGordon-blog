@@ -1,12 +1,20 @@
 ---
 layout: post
 title: EfficientDet
-date: 2020-04-20 20:00
+date: 2020-04-03
 comments: true
 categories: [paper-review]
 tags: [detector]
-related_post:
-    - /blog/_posts/2020-04-17-EfficientNet.md/
+---
+
+> In this paper, we systematically study neural network architecture design choices for object detection and propose several key optimizations to improve efficiency. First, we propose **a weighted bi-directional feature pyramid network (BiFPN)**, which allows easy and fast multi-scale feature fusion; Second, we propose **a compound scaling method** that uniformly scales the resolution, depth, and width for all backbone, feature network, and box/class prediction networks at the same time.
+
+<p align="center"><img src="https://drive.google.com/uc?id=1DFwNw-nHL0A0Wzw7gCl_OT45Bi25yVFR" width="100%" height="100%"></p>
+
+- Table of Contents
+{:toc .large-only}
+
+## Paper Info
 ---
 > Title : EfficientNet, Scalable and Efficient Object Detection
 
@@ -17,10 +25,6 @@ related_post:
 > keywords : Object Detection
 
 ---
-
-> In this paper, we systematically study neural network architecture design choices for object detection and propose several key optimizations to improve efficiency. First, we propose **a weighted bi-directional feature pyramid network (BiFPN)**, which allows easy and fast multi-scale feature fusion; Second, we propose **a compound scaling method** that uniformly scales the resolution, depth, and width for all backbone, feature network, and box/class prediction networks at the same time.
-
-<p align="center"><img src="https://drive.google.com/uc?id=1DFwNw-nHL0A0Wzw7gCl_OT45Bi25yVFR" width="100%" height="100%"></p>
 
 <br>
 ## Introduction
@@ -114,3 +118,6 @@ related_post:
 ---
 
 - 한 줄 요약 : BiFPN을 통한 효과적인 feature fusion과, compound scaling을 통한 고성능, 고효율의 detector.
+
+
+<br>
