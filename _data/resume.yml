@@ -104,6 +104,8 @@ skills:
     keywords:
       - "Docker"
       - "GRPC"
+      - "Flask"
+      - "Python"
   - name: "Web development"
     level: "Junior"
     keywords:

@@ -20,6 +20,8 @@ tags: [deeplearning]
 
 > Paper link : [https://arxiv.org/pdf/1905.11946.pdf](https://arxiv.org/pdf/1905.11946.pdf)
 
+> Author : Mingxing Tan, Quoc V. Le
+
 > Publised year : 23 Nov 2019
 
 > keywords : Model Scaling, Classification

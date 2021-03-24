@@ -20,6 +20,8 @@ tags: [detector]
 
 > Paper link : [https://arxiv.org/abs/1911.09070](https://arxiv.org/abs/1911.09070)
 
+> Author : Mingxing Tan, Ruoming Pang, Quoc V. Le
+
 > Publised year : 3 Apr 2020
 
 > keywords : Object Detection
