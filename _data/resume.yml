@@ -20,7 +20,7 @@ basics:
 
 
   location:
-    address: "Gurodong-ro 47-gil"
+    address: "Gurodong-ro"
     postalCode: "08279"
     city: "Seoul"
     countryCode: "KR"
@@ -31,18 +31,19 @@ basics:
       url: "https://www.linkedin.com/in/%EB%B2%94%ED%98%81-%EA%B5%AC-980875137/"
 work:
   - company: "NHN Entertainment"
-    position: "Junior AI researcher"
+    position: "AI Research Engineer / Scientist"
     website: "https://www.nhn.com/ko/index.nhn"
     startDate: "2020-02-10"
     endDate: ""
     summary: >
-      NHN is a global IT company that has entered and is growing in various IT-based businesses
-      such as games, payments, entertainment, IT, and advertising.
+      As a Computer vision engineer at NHN, I conducted research and development on several vision applications.
+      I contributed increase the performance (Accuracy, Speed, Memory) of the models.
+      Also produced and demonstrated several interactive web applications.
     highlights:
-      - "Research an algorithm for virtual clothing fitting"
-      - "Develop an system an Vehicle depature delay system"
-      - "Research an algorithm for object detection in mobile"
-      - "Develop an algorithm for car plate detection"
+      - "R&D an algorithm for virtual clothing fitting"
+      - "R&D an system an vehicle depature delay system"
+      - "R&D an algorithm for object detection in mobile (AI Pengtalk)"
+      - "R&D an algorithm for car plate detection application"
 
   - company: "LG Innotek"
     position: "Internship"
@@ -50,11 +51,9 @@ work:
     startDate: "2018-07-01"
     endDate: "2018-07-31"
     summary: >
-      LG Innotek, Korea's first electronic components company founded in 1970,
-      has grown into a leading global materials and components company by diversifying business areas
-      and focusing on creating world-class products through constant technological development and process innovation.
+      As a short-term intern, I contributed to research trends and system development in LG Innotek.
     highlights:
-      - "Develop an Super resolution algorithm for car plate detection"
+      - "R&D an Super resolution algorithm for car plate detection"
 
   - company: "Republic of Korea Air Force"
     position: "Sergeant"
@@ -133,3 +132,4 @@ interests:
     keywords:
       - "Baseball"
       - "Soccer"
+      - "Golf"
