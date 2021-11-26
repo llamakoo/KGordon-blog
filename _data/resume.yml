@@ -67,28 +67,34 @@ work:
 education:
   - institution: "Sogang University"
     area: "Electronic Engineering"
-    studyType: "Bachelor"
-    startDate: "2011-02-01"
-    endDate: "2018-02-01"
-    courses:
-      - "Digital circuit design, Digital signal processing, Digital image processing, Communication system"
-
-  - institution: "Sogang University"
-    area: "Electronic Engineering"
     studyType: "Master"
     startDate: "2018-02-01"
     endDate: "2020-02-01"
     courses:
       - "Pattern recognition, Deep learning, Computer vision, 3D image processing, Optimization"
 
+  - institution: "Sogang University"
+    area: "Electronic Engineering"
+    studyType: "Bachelor"
+    startDate: "2011-02-01"
+    endDate: "2018-02-01"
+    courses:
+      - "Digital circuit design, Digital signal processing, Digital image processing, Communication system"
+
 publications:
+  - name: "Full body virtual try‐on with semi‐self‐supervised learning"
+    publisher: "Electronics Letters"
+    releaseDate: "2021-09-01"
+    website: "https://www.researchgate.net/publication/354546752_Full_body_virtual_try-on_with_semi-self-supervised_learning"
+    summary: "This paper proposes a full body virtual try‐on which handles both top and bottom garments and generates realistic try‐on images."
   - name: "Nighttime Haze Removal with Glow Decomposition Using GAN"
     publisher: "Springer"
     releaseDate: "2020-02-23"
     website: "https://link.springer.com/chapter/10.1007/978-3-030-41404-7_57"
     summary: "Investigate the problem of a single image haze removal in the nighttime"
+
 skills:
-  - name: "Computer vision algorithm"
+  - name: "Computer vision"
     level: "Master"
     keywords:
       - "Object Detection"
@@ -100,19 +106,24 @@ skills:
       - "Tensorflow"
       - "NVIDIA Jetsons"
   - name: "Backend programming"
-    level: "Junior"
+    level: "Intermediate"
     keywords:
       - "Docker"
       - "GRPC"
       - "Flask"
-      - "Python"
   - name: "Web development"
     level: "Junior"
     keywords:
       - "HTML"
       - "CSS"
+      - "JavaScript"
+      - "Bootstrap"
       - "Jekyll"
 languages:
+  - language: "Python"
+    fluency: "Native speaker"
+  - language: "C/C++"
+    fluency: "Limited working proficiency"
   - language: "English"
     fluency: "Native speaker"
   - language: "Korean"
