@@ -3,10 +3,10 @@
 # See also: <https://jsonresume.org/>.
 basics:
   name: "Beomhyuk Koo"
-  label: "Computer Vision Programmer"
+  label: "AI Research Engineer / Scientist"
   picture: "/assets/img/profile(256x256).jpg"
   email: "llamakoo9@gmail.com"
-  # phone: "(+82) 010-9301-3546"
+  phone: "(+82) 010-9301-3546"
   # website: "https://piedpiper.com"
   summary: >
     As a software engineer with a passion for various engineering technologies and sciences,
@@ -18,7 +18,6 @@ basics:
     And during the master's course, I have carried out various projects such as video processing,
     computer vision, deep learning, machine learning, etc.
 
-
   location:
     address: "Gurodong-ro"
     postalCode: "08279"
@@ -29,6 +28,13 @@ basics:
     - network: "LinkedIn"
       username: "Byumhyuk Koo"
       url: "https://www.linkedin.com/in/%EB%B2%94%ED%98%81-%EA%B5%AC-980875137/"
+    - network: "Github"
+      username: "Byumhyuk Koo"
+      url: "https://github.com/llamakoo"
+    - network: "Blog"
+      username: "Bluellama Programmer [Blog]"
+      url: "https://bluellama-blog.netlify.app/"
+
 work:
   - company: "NHN Entertainment"
     position: "AI Research Engineer / Scientist"
