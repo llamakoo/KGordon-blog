@@ -36,11 +36,24 @@ basics:
       url: "https://bluellama-blog.netlify.app/"
 
 work:
+  - company: "SKTelecom AIx"
+    position: "Vision AI Research Engineer / Scientist"
+    website: "https://www.sktelecom.com/"
+    startDate: "2022-06-15"
+    endDate: ""
+    summary: >
+      As a Computer vision engineer at SKTelecom, I conducted research and development on several vision applications.
+      I contributed increase the performance (Accuracy, Speed, Memory) of the models.
+      Also produced and demonstrated several interactive web applications.
+    highlights:
+      - "R&D an algorithm for Vision Security System"
+      - "Develop an algorithm for Edge divice"
+
   - company: "NHN Entertainment"
     position: "AI Research Engineer / Scientist"
     website: "https://www.nhn.com/ko/index.nhn"
     startDate: "2020-02-10"
-    endDate: ""
+    endDate: "2022-06-10"
     summary: >
       As a Computer vision engineer at NHN, I conducted research and development on several vision applications.
       I contributed increase the performance (Accuracy, Speed, Memory) of the models.
